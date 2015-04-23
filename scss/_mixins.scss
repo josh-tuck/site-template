@@ -1,0 +1,38 @@
+//* The SCSS MIXINS for (SITE NAME)
+
+@mixin border-radius {
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+@mixin clear-float {
+	font-size: 1px;
+	line-height: 0;
+	clear: both;
+	height: 0;
+}
+
+@mixin hide {
+	clear: both !important;
+	height: 0 !important;
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+	margin-left: 0 !important;
+	max-height: 0 !important;
+   padding-top: 0 !important;
+   padding-right: 0 !important;
+   padding-bottom: 0 !important;
+   padding-right: 0 !important;
+   visibility: hidden !important;
+   width: 0 !important;
+}
+
+@mixin transition($transition-property, $transition-time, $method) {
+	-webkit-transition: $transition-property $transition-time $method;
+	-moz-transition: $transition-property $transition-time $method;
+	-ms-transition: $transition-property $transition-time $method;
+	-o-transition: $transition-property $transition-time $method;
+	transition: $transition-property $transition-time $method;
+}
