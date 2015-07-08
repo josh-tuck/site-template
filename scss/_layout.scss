@@ -1,1 +1,54 @@
 //* LAYOUT 
+
+//* Layout Column & It's Percentage Width 
+
+.lc-100 {
+	margin: 0;
+	max-width: 100%;
+	overflow: visible;
+	padding: 0;
+	position: relative;
+}
+
+.lc-90 { width: 90%; }
+
+.lc-80 { width: 80%; }
+
+.lc-70 { width: 70%; }
+
+.lc-66 { width: 66.66666666%; }
+
+.lc-60 { width: 60%; background-color: purple; }
+
+.lc-50 { width: 50%; }
+
+.lc-40 { width: 40%; }
+
+.lc-33 { width: 33.33333333%; }
+
+.lc-30 { width: 30%; }
+
+.lc-25 { width: 25%; }
+
+.lc-20 { width: 20%; background-color: blue; }
+
+.lc-10 { width: 10%; }
+
+.lc-90, .lc-80, .lc-70, .lc-66, .lc-60, .lc-50,
+.lc-40, .lc-33, .lc-30, .lc-25, .lc-20, .lc-10  {
+	float: left;
+	margin: 0;
+	overflow: visible;
+	padding: 0;
+	position: relative;
+}
+
+.col-side {}
+
+.col-main {}
+
+//* MISC 
+
+.cf {
+	@include clear-float
+}
