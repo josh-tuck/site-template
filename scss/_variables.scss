@@ -7,9 +7,9 @@ $font-1: 'Helvetica-Neue', helvetica, sans-serif;
 $font-2: 'Helvetica-Neue', helvetica, sans-serif;
 $font-3: 'Helvetica-Neue', helvetica, sans-serif;
 
-$font-sm: .75em;
-$font-md: 1em;
-$font-lg: 1.25em;
+$font-sm: 50%;
+$font-md: 100%;
+$font-lg: 200%;
 
 
 //* COLORS
@@ -25,33 +25,26 @@ $color-6: #000000; 			//* Description
 
 //* COLORS - GRAYS 
 
-<<<<<<< Updated upstream
 $black: #000;
 $white: #fff;
 
-$color-grey-prime: #222;
-$color-grey-second: #444;
-$color-grey-third: #666;
-$color-grey-fourth: #888;
-=======
 $color-grey-1: #222;
 $color-grey-2: #444;
 $color-grey-3: #666;
 $color-grey-4: #888;
->>>>>>> Stashed changes
 
 
 //* LAYOUT 
 
 $max-width: 72em;
 
-$margin: 1em;
+$margin: 5%;
 $margin-and-half: $margin*1.5;
 $margin-double: $margin*2;
 $margin-half: $margin/2;
 $margin-quarter: $margin/4;
 
-$pad: 1em;
+$pad: 5%;
 $pad-and-half: $pad*1.5;
 $pad-double: $pad*2;
 $pad-half: $pad/2;
