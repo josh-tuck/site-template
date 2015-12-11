@@ -1,9 +1,9 @@
 //* The SCSS MIXINS for (SITE NAME)
 
 @mixin border-radius {
+	border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
-	border-radius: 6px;
 }
 
 @mixin clear-float {
@@ -13,20 +13,25 @@
 	height: 0;
 }
 
+@mixin flex-align($a_dir, $j_dir) {
+	align-items: ($a_dir);
+	justify-content: ($j_dir);	
+}
+
 @mixin flex-container {
 	display: -webkit-box;
 	display: -moz-box;
-	display: -ms-flexbox;
+	display: -ms-flexbox !important;
 	display: -webkit-flex;
 	display: flex;
 }
 
 @mixin flex-item($width) {
-	-webkit-box-flex: 1; 
-	-moz-box-flex: 1; 
+	-webkit-box-flex: auto; 
+	-moz-box-flex: auto; 
 	width: ($width);
-	-ms-flex: 1;
-	flex: 1;
+	-ms-flex: auto;
+	flex: auto;
 }
 
 @mixin flex-order($order) {
@@ -45,12 +50,12 @@
 	margin-bottom: 0 !important;
 	margin-left: 0 !important;
 	max-height: 0 !important;
-  padding-top: 0 !important;
-  padding-right: 0 !important;
-  padding-bottom: 0 !important;
-  padding-right: 0 !important;
-  visibility: hidden !important;
-  width: 0 !important;
+   padding-top: 0 !important;
+   padding-right: 0 !important;
+   padding-bottom: 0 !important;
+   padding-right: 0 !important;
+   visibility: hidden !important;
+   width: 0 !important;
 }
 
 @mixin transition($transition-property, $transition-time, $method) {
