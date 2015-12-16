@@ -1,9 +1,9 @@
 //* The SCSS MIXINS for (SITE NAME)
 
-@mixin border-radius {
-	border-radius: 6px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
 }
 
 @mixin clear-float {
@@ -13,9 +13,14 @@
 	height: 0;
 }
 
-@mixin flex-align($a_dir, $j_dir) {
+//*===========================================
+//* FLEXBOX
+//*===========================================
+
+@mixin flex-align($a_dir, $j_dir, $c-dir) {
 	align-items: ($a_dir);
 	justify-content: ($j_dir);	
+	flex-direction: ($c-dir);
 }
 
 @mixin flex-container {
@@ -59,9 +64,9 @@
 }
 
 @mixin transition($transition-property, $transition-time, $method) {
-	-webkit-transition: $transition-property $transition-time $method;
-	-moz-transition: $transition-property $transition-time $method;
-	-ms-transition: $transition-property $transition-time $method;
-	-o-transition: $transition-property $transition-time $method;
-	transition: $transition-property $transition-time $method;
+	-webkit-transition: $transition-property, $transition-time, $method;
+	-moz-transition: $transition-property, $transition-time, $method;
+	-ms-transition: $transition-property, $transition-time, $method;
+	-o-transition: $transition-property, $transition-time, $method;
+	transition: $transition-property, $transition-time, $method;
 }
