@@ -5,8 +5,8 @@
 //*===========================================
 
 $font-1: 'Helvetica-Neue', helvetica, sans-serif;
-$font-2: 'Helvetica-Neue', helvetica, sans-serif;
-$font-3: 'Helvetica-Neue', helvetica, sans-serif;
+$font-2: 'Georgia', 'Times', serif;
+$font-3: 'Courier', monospace;
 
 $font-sm: 50%;
 $font-md: 100%;
@@ -45,13 +45,13 @@ $color-grey-4: #888;
 
 $max-width: 72em;
 
-$margin: 5%;
+$margin: 2%;
 $margin-and-half: $margin*1.5;
 $margin-double: $margin*2;
 $margin-half: $margin/2;
 $margin-quarter: $margin/4;
 
-$pad: 5%;
+$pad: 2%;
 $pad-and-half: $pad*1.5;
 $pad-double: $pad*2;
 $pad-half: $pad/2;
