@@ -2,6 +2,12 @@
 //*  LAYOUT
 //*=========================================== 
 
+.container {
+	max-width: $max-width;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
 //*===========================================
 //*  THE GRID
 //*===========================================
@@ -11,9 +17,23 @@
 	overflow: hidden;
 }
 
-.grid-item {}
+.grid-item {
+	padding: $pad-half;
+}
 
-.2up {}
+.1up {
+	.grid-item { width: 100%; }
+}
+
+.2up {
+	@media all and (min-width:$bp-45m) {
+		> .grid-item {
+			float: left;
+			width: 50%;
+			&:nth-of-type(odd) { clear: left; }
+		}
+	}
+}
 
 .3up {}
 

@@ -16,28 +16,28 @@ $font-lg: 200%;
 //* COLORS
 //*===========================================
 
-$color-1: #000000; 			//* Description
+$color-1: #000000; 				//* Description
 $color-1-hover: #000000;	//* Description
-$color-2: #000000; 			//* Description
-$color-3: #000000; 			//* Description
-$color-4: #000000; 			//* Description
-$color-5: #000000; 			//* Description
-$color-6: #000000; 			//* Description
+$color-2: #000000; 				//* Description
+$color-3: #000000; 				//* Description
+$color-4: #000000; 				//* Description
+$color-5: #000000; 				//* Description
+$color-6: #000000; 				//* Description
 
-$color-a: #000;
-$color-a-hover: #000;
+$color-a: #000000;
+$color-a-hover: #000000;
 
 //*===========================================
 //* COLORS - GRAYS 
 //*===========================================
 
-$black: #000;
-$white: #fff;
+$black: #000000;
+$white: #ffffff;
 
-$color-grey-1: #222;
-$color-grey-2: #444;
-$color-grey-3: #666;
-$color-grey-4: #888;
+$color-grey-1: #cccccc;
+$color-grey-2: #999999;
+$color-grey-3: #666666;
+$color-grey-4: #333333;
 
 //*===========================================
 //* LAYOUT 
@@ -61,13 +61,13 @@ $pad-quarter: $pad/4;
 //* BREAKPOINTS
 //*===========================================
 
-$bp-30m: 30em;		//* 480px
-$bp-40m: 40em;		//* 640px
-$bp-45m: 45em;		//* 720px
-$bp-50m: 50.25em;	//* 840px
-$bp-60m: 60em;		//* 960px
-$bp-67m: 67.5em;	//* 1080px
-$bp-82m: 82.5em;	//* 1320px
+$bp-30m: 30em;						//* 480px
+$bp-40m: 40em;						//* 640px
+$bp-45m: 45em;						//* 720px
+$bp-50m: 50.25em;					//* 840px
+$bp-60m: 60em;						//* 960px
+$bp-67m: 67.5em;					//* 1080px
+$bp-82m: 82.5em;					//* 1320px
 
 //*===========================================
 //* FROSTING 
