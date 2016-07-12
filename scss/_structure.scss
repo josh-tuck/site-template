@@ -1,0 +1,109 @@
+//*===========================================
+//*  STRUCTURE
+//*=========================================== 
+
+.container {
+	max-width: $max-width;
+	margin: 0 auto;
+	padding: $pad-half;
+}
+
+.layout-two-column {
+	.main {
+		@media all and (min-width:$bp-36m) {
+			float: left;
+			padding-right: $pad;
+			width: 70%;
+		}
+	}
+	
+	.side {
+		@media all and (max-width:$bp-36m) {
+			clear: both;
+		}
+		@media all and (min-width:$bp-36m) {
+			float: left;
+			padding: 0 0 0 $pad;
+			width: 30%;
+		}
+	}
+}
+
+
+//*===========================================
+//*  THE GRID
+//*===========================================
+
+.grid {
+	margin: 0 (-$pad-half);
+	overflow: hidden;
+}
+
+.grid-item {
+	padding: $pad-half;
+	@media all and (min-width:$bp-36m) {
+		float:left;
+	}
+}
+
+.one-col {
+	.grid-item { width: 100%; }
+}
+
+.two-col {
+	@media all and (min-width:$bp-36m) {
+		> .grid-item {
+			float: left;
+			width: 50%;
+			&:nth-of-type(odd) { clear: left; }
+		}
+	}
+}
+
+.three-col {
+	@media all and (min-width:$bp-36m) {
+		> .grid-item {
+			float: left;
+			width: 33.333333%;
+		}
+	}
+}
+
+.four-col {
+	@media all and (min-width:$bp-36m) {
+		> .grid-item {
+			float: left;
+			width: 25%;
+		}
+	}
+}
+
+.five-col {
+	@media all and (min-width:$bp-36m) {
+		> .grid-item {
+			float: left;
+			width: 20%;
+		}
+	}
+}
+
+.six-col {
+	@media all and (min-width:$bp-36m) {
+		> .grid-item {
+			float: left;
+			width: 16.666666%;
+		}
+	}
+}
+
+.main, .side, .grid-item {
+	background-color: rgba(0,0,0,0.2);
+}
+
+//*===========================================
+//*  MISC
+//*===========================================
+
+.cf {
+	@include clear-float
+}

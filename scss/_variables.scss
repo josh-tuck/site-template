@@ -16,28 +16,17 @@ $font-lg: 200%;
 //* COLORS
 //*===========================================
 
-$color-1: #000000; 				//* Description
-$color-1-hover: #000000;	//* Description
-$color-2: #000000; 				//* Description
-$color-3: #000000; 				//* Description
-$color-4: #000000; 				//* Description
-$color-5: #000000; 				//* Description
-$color-6: #000000; 				//* Description
+$color-1: #333333; 				//* Description
+$color-2: #666666; 				//* Description
+$color-3: #999999; 				//* Description
+$color-4: #CCCCCC; 				//* Description
+$color-5: #F4F4F4; 				//* Description
 
 $color-a: #000000;
-$color-a-hover: #000000;
-
-//*===========================================
-//* COLORS - GRAYS 
-//*===========================================
+$color-a-hvr: #000000;
 
 $black: #000000;
 $white: #ffffff;
-
-$color-grey-1: #cccccc;
-$color-grey-2: #999999;
-$color-grey-3: #666666;
-$color-grey-4: #333333;
 
 //*===========================================
 //* LAYOUT 
@@ -62,6 +51,7 @@ $pad-quarter: $pad/4;
 //*===========================================
 
 $bp-30m: 30em;						//* 480px
+$bp-36m: 36em;						//* 576px
 $bp-40m: 40em;						//* 640px
 $bp-45m: 45em;						//* 720px
 $bp-50m: 50.25em;					//* 840px
