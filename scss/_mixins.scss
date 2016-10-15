@@ -6,13 +6,6 @@
 	-webkit-border-radius: $radius;
 }
 
-@mixin clear-float {
-	font-size: 1px;
-	line-height: 0;
-	clear: both;
-	height: 0;
-}
-
 //*===========================================
 //* FLEXBOX
 //*===========================================

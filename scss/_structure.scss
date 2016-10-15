@@ -29,6 +29,9 @@
 	}
 }
 
+.main, .side, .grid-item {
+	background-color: rgba(100,30,20,0.2);
+}
 
 //*===========================================
 //*  THE GRID
@@ -40,7 +43,7 @@
 }
 
 .grid-item {
-	padding: $pad-half;
+	padding: $pad-half 0;
 	@media all and (min-width:$bp-36m) {
 		float:left;
 	}
@@ -94,16 +97,4 @@
 			width: 16.666666%;
 		}
 	}
-}
-
-.main, .side, .grid-item {
-	background-color: rgba(0,0,0,0.2);
-}
-
-//*===========================================
-//*  MISC
-//*===========================================
-
-.cf {
-	@include clear-float
 }
