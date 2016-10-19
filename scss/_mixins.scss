@@ -7,46 +7,12 @@
 	-webkit-border-radius: $radius;
 }
 
-<<<<<<< Updated upstream
-//*===========================================
-//* FLEXBOX
-//*===========================================
 
-@mixin flex-align($a_dir, $j_dir, $c-dir) {
-	align-items: ($a_dir);
-	justify-content: ($j_dir);	
-	flex-direction: ($c-dir);
-}
-
-@mixin flex-container {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox !important;
-	display: -webkit-flex;
-	display: flex;
-}
-
-@mixin flex-item($width) {
-	-webkit-box-flex: auto; 
-	-moz-box-flex: auto; 
-	width: ($width);
-	-ms-flex: auto;
-	flex: auto;
-}
-
-@mixin flex-order($order) {
-	-webkit-box-ordinal-group: $order;
-	-moz-box-ordinal-group: $order;  
-	-ms-flex-order: $order;
-	-webkit-order: $order; 
-	order: $order;
-=======
-@mixin clear-float {
+@mixin clear_float {
 	font-size: 1px;
 	line-height: 0;
 	clear: both;
 	height: 0;
->>>>>>> Stashed changes
 }
 
 @mixin hide {
