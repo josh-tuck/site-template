@@ -1,4 +1,3 @@
-//*===========================================
 //*  STRUCTURE
 //*=========================================== 
 
@@ -29,11 +28,14 @@
 	}
 }
 
+<<<<<<< Updated upstream
 .main, .side, .grid-item {
 	background-color: rgba(100,30,20,0.2);
 }
 
 //*===========================================
+=======
+>>>>>>> Stashed changes
 //*  THE GRID
 //*===========================================
 
@@ -97,4 +99,31 @@
 			width: 16.666666%;
 		}
 	}
+<<<<<<< Updated upstream
 }
+=======
+}
+
+.main, .side, .grid-item {
+	background-color: rgba(0,0,0,0.2);
+}
+
+//*  MISC
+//*===========================================
+
+.cf {
+	@include clear-float
+}
+
+.cf {
+    *zoom: 1;
+}
+.cf:before, .cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+>>>>>>> Stashed changes

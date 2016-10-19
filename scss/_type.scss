@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 //* Typeography
 
 html, body { font-family: helvetica, sans-serif; }
@@ -5,6 +6,15 @@ html, body { font-family: helvetica, sans-serif; }
 * + * { font-size: calc(1em + 1vw); }
 
 //* HEADLINES 
+=======
+//*  TYPOGRAPHY
+//*===========================================
+
+html, body { font-family: helvetica, sans-serif; }
+
+//*  HEADLINES
+//*=========================================== 
+>>>>>>> Stashed changes
 
 h1 {}
 
@@ -18,7 +28,12 @@ h5 {}
 
 h6 {}
 
+<<<<<<< Updated upstream
 //* PARAGRAPH ELEMENTS
+=======
+//*  PARAGRAPH
+//*===========================================
+>>>>>>> Stashed changes
 
 p {}
 
@@ -30,7 +45,8 @@ blockquote {}
 
 code {}
 
-//* LISTS
+//*  LISTS
+//*===========================================
 
 ul {
 	li {}
@@ -40,7 +56,12 @@ ol {
 	li {}
 }
 
+<<<<<<< Updated upstream
 //* SPECIAL CLASSES
+=======
+//*  SPECIAL CLASSES
+//*===========================================
+>>>>>>> Stashed changes
 
 .hero-text {}
 
