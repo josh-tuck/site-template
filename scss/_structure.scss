@@ -4,7 +4,7 @@
 .container {
 	max-width: $max-width;
 	margin: 0 auto;
-	padding: $pad-half;
+	padding: 0;
 }
 
 .layout-two-column {
@@ -36,7 +36,7 @@
 //*===========================================
 
 .grid {
-	margin: 0 (-$pad-half);
+	margin: 0;
 	overflow: hidden;
 }
 
@@ -104,7 +104,7 @@
 //*  MISC
 //*===========================================
 
-.cf {
+.crflt {
 	@include clear-float
 }
 
@@ -112,8 +112,8 @@
     *zoom: 1;
 }
 .cf:before, .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    display: table;
 }
 
 .cf:after {

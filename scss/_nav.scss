@@ -1,12 +1,63 @@
-//*  NAVIGATION
-//*===========================================
-
-
-
 //*  MAIN NAV
 //*===========================================
 
-
+nav { 
+	height: auto;
+	width: 100%;
+	background: $black;
+	font-size: 70%;
+	font-weight: normal;
+	position: relative;	
+	ul {
+  	display: block;
+  	height: auto;
+		padding: 0;
+		margin: 0 auto;
+		width: 100%;
+		overflow: hidden;
+	}
+	li {
+		position: relative;
+		width: 100%;
+	}
+	a {
+  	border-bottom: 1px solid $color-2;
+  	box-sizing: border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		color: $white;
+		display: inline-block;
+		padding-left: $pad-double;
+		width: 100%;
+		text-align: left;
+		text-decoration: none;
+		line-height: 40px;
+		&:hover, :active {
+			background-color: $color-1;
+		}
+		#pull { display: none; }
+	}
+	a#pull {
+		display: block;
+		background-color: $black;
+		width: 100%;
+		position: relative;
+	}
+	a#pull:after {
+		content: "";
+		background: url('../img/burger.gif') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+}
+#menu:target {
+  z-index: 1;
+  height: 0;
+}
 
 //*  SECONDARY NAV
 //*===========================================
