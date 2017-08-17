@@ -1,7 +1,9 @@
 //*  STRUCTURE
 //*=========================================== 
 
-.container {
+html, body { height: 100%; }
+
+.content {
 	max-width: $max-width;
 	margin: 0 auto;
 	padding: 0;
@@ -17,10 +19,9 @@
 	}
 	
 	.side {
-		@media all and (max-width:$bp-36m) {
-			clear: both;
-		}
+		clear: both;
 		@media all and (min-width:$bp-36m) {
+			clear: none;
 			float: left;
 			padding: 0 0 0 $pad;
 			width: 30%;
@@ -28,9 +29,13 @@
 	}
 }
 
-.main, .side, .grid-item {
-	background-color: rgba(100,30,20,0.2);
-}
+.main, .side, .grid-item {}
+
+.main { background-color: #f4f4f4; }
+
+.side { background-color: #f6f6f6; }
+
+footer { background-color: #f8f8f8; }
 
 //*  THE GRID
 //*===========================================
@@ -41,6 +46,7 @@
 }
 
 .grid-item {
+  border: 1px solid $white;
 	padding: $pad-half 0;
 	@media all and (min-width:$bp-36m) {
 		float:left;
@@ -98,15 +104,11 @@
 }
 
 .main, .side, .grid-item {
-	background-color: rgba(0,0,0,0.2);
+	border: 1px solid $white;
 }
 
 //*  MISC
 //*===========================================
-
-.crflt {
-	@include clear-float
-}
 
 .cf {
     *zoom: 1;

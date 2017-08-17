@@ -1,7 +1,11 @@
 //*  GLOBALS
 //*===========================================
 
-body, html {}
+body, html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
 
 * + * {}
 
@@ -13,11 +17,3 @@ body, html {}
 .clrfx:after { clear: both; }
 
 .clrfx { *zoom: 1; }
-
-
-.clearfloat {
-	font-size: 1px;
-	line-height: 0;
-	clear: both;
-	height: 0;
-}

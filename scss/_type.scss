@@ -3,17 +3,30 @@
 
 html, body {
 	font-family: helvetica, sans-serif;
-	font-size: calc(1em + 1vw);
+}
+
+:root { font-size: #{$min-font}px; }
+
+@media (min-width: #{$min-vp-width}px) and (max-width: #{$max-vp-width}px) {
+  :root {
+    font-size: calc( #{$min-font}px + (#{$max-font} - #{$min-font}) * ((100vw - #{$min-vp-width}px) / (#{$max-vp-width} - #{$min-vp-width}) ));
+  }
+}
+
+@media (min-width: #{$max-vp-width}px) {
+  :root {
+    font-size: #{$max-font}px;
+  }
 }
 
 //*  HEADLINES
 //*=========================================== 
 
-h1 {}
+h1 { font-size: 3em; }
 
-h2 {}
+h2 { font-size: 2.5em; }
 
-h3 {}
+h3 { font-size: 2em; }
 
 h4 {}
 
@@ -21,10 +34,16 @@ h5 {}
 
 h6 {}
 
+.entry-title {}
+
+.headline {}
+
 //*  PARAGRAPH
 //*===========================================
 
-p {}
+p {
+  margin-bottom: $marg;
+}
 
 em {}
 
@@ -44,6 +63,11 @@ ul {
 ol {
 	li {}
 }
+
+//*  HOME PAGE
+//*===========================================
+
+
 
 //*  SPECIAL CLASSES
 //*===========================================

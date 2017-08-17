@@ -1,30 +1,34 @@
 //* FONTS
 //*===========================================
 
-$font-1: 'Helvetica', helvetica, sans-serif;
-$font-2: 'Georgia', 'Times', serif;
-$font-3: 'Courier', monospace;
+$fnt-1: 'Helvetica', helvetica, sans-serif;
+$fnt-2: 'Georgia', 'Times', serif;
 
-$font-sm: 80%;
-$font-md: 100%;
-$font-lg: 120%;
+//*  FONT SCALING
+//*===========================================
+
+$min-vp-width: 320;
+$max-vp-width: 1120;
+
+$min-font: 16;
+$max-font: 24;
 
 //* COLORS
 //*===========================================
 
-$brand-color-1: #0B15FF;
-$brand-color-2: #FF580B;
-$brand-color-3: #9293B2;
-$brand-color-4: #8DCC74;
+$br-clr-1: #0B15FF;
+$br-clr-2: #FF580B;
+$br-clr-3: #9293B2;
+$br-clr-4: #8DCC74;
 
 //* GRAYS
 //*===========================================
 
-$color-1: #333333;
-$color-2: #666666;
-$color-3: #999999;
-$color-4: #CCCCCC;
-$color-5: #F4F4F4;
+$clr-1: #333333; // Darker
+$clr-2: #666666;
+$clr-3: #999999;
+$clr-4: #CCCCCC;
+$clr-5: #F4F4F4; // Lighter
 
 $black: #000000;
 $white: #ffffff;
@@ -34,17 +38,17 @@ $white: #ffffff;
 
 $max-width: 72em;
 
-$margin: 2%;
-$margin-and-half: $margin*1.5;
-$margin-double: $margin*2;
-$margin-half: $margin/2;
-$margin-quarter: $margin/4;
+$marg: 2%;
+$marg-and-half: $marg*1.5;
+$marg-dbl: $marg*2;
+$marg-half: $marg/2;
+$marg-qrtr: $marg/4;
 
 $pad: 2%;
 $pad-and-half: $pad*1.5;
-$pad-double: $pad*2;
+$pad-dbl: $pad*2;
 $pad-half: $pad/2;
-$pad-quarter: $pad/4;
+$pad-qrtr: $pad/4;
 
 //* BREAKPOINTS -- Primary
 //*===========================================
