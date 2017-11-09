@@ -14,8 +14,8 @@
 #nav:not( :target ) > a:first-of-type,
 #nav:target > a:last-of-type { 
   display: inline-block;
-  background-color: $clr-1;
-  color: $white;
+  background-color: black;
+  color: white;
   font-size: 80%;
   padding: 1em;
   &:before {
@@ -24,22 +24,19 @@
     position: relative;
     top: 2px;
   }
-  @media all and (min-width:$bp-36m) {
-    padding: .5em;
-  }
-  @media all and (min-width:$bp-45m) {
+  @media all and (min-width:$bp-3) {
     display: none;
   }
 }
 
 .burger {
-  font-family: $fnt-1;
+  font-family: $font-1;
 }
 
 .burger:after {
   content: '';
-  background-color: $white;
-  box-shadow: 0 12px 0 #fff, 0 24px 0 #fff; 
+  background-color: white;
+  box-shadow: 0 12px 0 white, 0 24px 0 white; 
   height: 2px;
   position: absolute;
   width: 40px;
@@ -62,24 +59,24 @@
   left: 0;
   right: 0;
   li {
-    background-color: $clr-1;
+    background-color: $color-1;
     float: none; 
     padding: .5em;
     width: 100%;
     text-align: left;
-    @media all and (min-width:$bp-45m) {
+    @media all and (min-width:$bp-3) {
 //       float: left; 
       text-align: left;
 //       width: 25%;
     }
     a {
-      color: $white;
+      color: white;
       display: block;
       font-size: 80%;
     }
-    &:hover { background-color: $black; }
+    &:hover { background-color: black; }
   }
-  @media all and (min-width:$bp-45m) {
+  @media all and (min-width:$bp-3) {
     display: block;
 //     overflow: auto;
     position: relative;
@@ -94,7 +91,7 @@
 
 #nav li:hover ul { 
   display: block;
-  @media all and (min-width:$bp-45m) {
+  @media all and (min-width:$bp-3) {
     position: absolute;
   }
 }
@@ -104,10 +101,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  li a { margin-left: 1em; }
+  li a { margin-left: $space; }
 }
 
-@media all and (min-width:$bp-45m) {
+@media all and (min-width:$bp-3) {
   #nav > a {
     display: none;
   }
@@ -137,6 +134,7 @@
     display: block;
   }
 }
+
 
 //*  SECONDARY NAV
 //*===========================================

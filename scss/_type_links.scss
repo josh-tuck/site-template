@@ -22,11 +22,11 @@ html, body {
 //*  HEADLINES
 //*=========================================== 
 
-h1 { font-size: 3em; }
+h1 { font-size: 300%; }
 
-h2 { font-size: 2.5em; }
+h2 { font-size: 250%; }
 
-h3 { font-size: 2em; }
+h3 { font-size: 200%; }
 
 h4 {}
 
@@ -38,11 +38,12 @@ h6 {}
 
 .headline {}
 
+
 //*  PARAGRAPH
 //*===========================================
 
 p {
-  margin-bottom: $marg;
+  margin-bottom: $space;
 }
 
 em {}
@@ -52,6 +53,7 @@ address {}
 blockquote {}
 
 code {}
+
 
 //*  LISTS
 //*===========================================
@@ -64,9 +66,33 @@ ol {
 	li {}
 }
 
-//*  HOME PAGE
+
+//*  LINKS
 //*===========================================
 
+a {
+  text-decoration: none;
+	&:active {}
+	&:focus {}
+	&:hover {}
+	&:visited {}
+}
+
+.btn {
+  background-color: $grey-3;
+  color: white;
+  display: table;
+  font: 300 100%/1 $font-1;
+  margin: 0 auto;
+  padding: $space-half $space;
+  text-align: center;
+  text-transform: uppercase;
+  @include transition(all,0.3s,ease);
+  &:hover {
+    background-color: $grey-1;
+    color: white;
+  }
+}
 
 
 //*  SPECIAL CLASSES

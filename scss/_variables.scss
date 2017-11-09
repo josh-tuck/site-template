@@ -1,8 +1,9 @@
 //* FONTS
 //*===========================================
 
-$fnt-1: 'Helvetica', helvetica, sans-serif;
-$fnt-2: 'Georgia', 'Times', serif;
+$font-1: 'Helvetica', helvetica, sans-serif;
+$font-2: 'Georgia', 'Times', serif;
+
 
 //*  FONT SCALING
 //*===========================================
@@ -13,58 +14,50 @@ $max-vp-width: 1120;
 $min-font: 16;
 $max-font: 24;
 
+
 //* COLORS
 //*===========================================
 
-$br-clr-1: #0B15FF;
-$br-clr-2: #FF580B;
-$br-clr-3: #9293B2;
-$br-clr-4: #8DCC74;
+$color-1: #0B15FF;
+$color-2: #FF580B;
+$color-3: #9293B2;
+$color-4: #8DCC74;
+
 
 //* GRAYS
 //*===========================================
 
-$clr-1: #333333; // Darker
-$clr-2: #666666;
-$clr-3: #999999;
-$clr-4: #CCCCCC;
-$clr-5: #F4F4F4; // Lighter
+$grey-1: #333333;          // Darker
+$grey-2: #666666;
+$grey-3: #999999;
+$grey-4: #CCCCCC;
+$grey-5: #F4F4F4;          // Lighter
 
-$black: #000000;
-$white: #ffffff;
 
 //* LAYOUT 
 //*===========================================
 
 $max-width: 72em;
 
-$marg: 2%;
-$marg-and-half: $marg*1.5;
-$marg-dbl: $marg*2;
-$marg-half: $marg/2;
-$marg-qrtr: $marg/4;
+$space: 2%;
+$space-half: $space/2;
+$space-qrtr: $space/4;
+$space-and-half: $space*1.5;
+$space-2x: $space*2;
+$space-3x: $space*3;
+$space-4x: $space*4;
 
-$pad: 2%;
-$pad-and-half: $pad*1.5;
-$pad-dbl: $pad*2;
-$pad-half: $pad/2;
-$pad-qrtr: $pad/4;
+
 
 //* BREAKPOINTS -- Primary
 //*===========================================
 
-$bp-30m: 30em;						//* 480px
-$bp-40m: 40em;						//* 640px
-$bp-45m: 45em;						//* 720px
-$bp-50m: 50.25em;					//* 840px
-$bp-60m: 60em;						//* 960px
-$bp-67m: 67.5em;					//* 1080px
 
-//*  BREAKPOINTS -- Secondary
-//*===========================================
-
-$bp-36m: 36em;						//* 576px
-$bp-82m: 82.5em;					//* 1320px
+$bp-1: 26.25em;           //* 420px
+$bp-2: 38.75em;           //* 620px
+$bp-3: 51.25em;           //* 820px
+$bp-4: 63.75em;           //* 1020px
+$bp-5: 76.25em;           //* 1220px
 
 //* FROSTING 
 //*===========================================
