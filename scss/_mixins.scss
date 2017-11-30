@@ -1,9 +1,23 @@
 //*  MIXINS
 //*===========================================
 
-@mixin flex-parent {}
+@mixin flex-parent($f-dir, $f-wrap, $j-cont, $a-item, $a-cont) {
+	display: flex;
+	flex-direction: $f-dir;
+	flex-wrap: $f-wrap;
+	justify-content: $j-cont;
+	align-items: $a-item;
+	align-content: $a-cont;
+}
 
-@mixin flex-child {}
+@mixin flex-child() {
+	order: $order;
+	flex-grow: $f-grow;
+	flex-shrink: $f-shrink;
+	flex-basis: $f-basis;
+	flex: $flex;
+	align-self: $a-self;
+}
 
 @mixin border-radius($radius) {
 	border-radius: $radius;
@@ -11,10 +25,10 @@
 	-webkit-border-radius: $radius;
 }
 
-@mixin transition($transition-property, $transition-time, $method) {
-	-webkit-transition: $transition-property, $transition-time, $method;
-	-moz-transition: $transition-property, $transition-time, $method;
-	-ms-transition: $transition-property, $transition-time, $method;
-	-o-transition: $transition-property, $transition-time, $method;
-	transition: $transition-property, $transition-time, $method;
+@mixin transition($t-prop, $t-time, $t-meth) {
+	-webkit-transition: $t-prop, $t-time, $t-meth;
+	-moz-transition: $t-prop, $t-time, $t-meth;
+	-ms-transition: $t-prop, $t-time, $t-meth;
+	-o-transition: $t-prop, $t-time, $t-meth;
+	transition: $t-prop, $t-time, $t-meth;
 }
