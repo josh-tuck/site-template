@@ -9,7 +9,7 @@ $font-2: 'Georgia', 'Times', serif;
 //*===========================================
 
 $min-vp-width: 320;
-$max-vp-width: 1120;
+$max-vp-width: 1280;
 
 $min-font: 16;
 $max-font: 24;
@@ -37,9 +37,9 @@ $grey-5: #F4F4F4;          // Lighter
 //* MARGIN & PADDING 
 //*===========================================
 
-$max-width: 72em;
+$max-width: 80em;
 
-$space: 2%;
+$space: 6%;
 $space-half: $space/2;
 $space-qrtr: $space/4;
 $space-and-half: $space*1.5;
@@ -48,15 +48,16 @@ $space-3x: $space*3;
 $space-4x: $space*4;
 
 
-
 //* BREAKPOINTS 
 //*===========================================
 
+$bp-1: 33.75em;          //* 540px
+$bp-2: 45em;             //* 720px
+$bp-3: 52.5em;           //* 840px
+$bp-4: 58.75em;          //* 940px
+$bp-5: 67.5em;           //* 1080px
+$bp-6: 77.5em;           //* 1240px;
 
-$bp-1: 25em;             //* 400px
-$bp-2: 36.25em;          //* 580px
-$bp-3: 50em;             //* 800px
-$bp-5: 63.75em;          //* 1020px
 
 //* FROSTING 
 //*===========================================
