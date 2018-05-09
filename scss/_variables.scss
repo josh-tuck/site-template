@@ -37,7 +37,7 @@ $grey-5: #F4F4F4;          // Lighter
 //* MARGIN & PADDING 
 //*===========================================
 
-$max-width: 80em;
+$mxw: 80em;
 
 $space: 6%;
 $space-half: $space/2;
@@ -62,6 +62,6 @@ $bp-6: 77.5em;           //* 1240px;
 //* FROSTING 
 //*===========================================
 
-$text-shadow: 0 0 4px rgba(0,0,0,.5);
-$box-shadow: 0 0 4px rgba(0,0,0,.5);
+$txt-shdw: 0 0 4px rgba(0,0,0,.5);
+$blck-shdw: 0 0 4px rgba(0,0,0,.5);
 $opacity: 0.5;
