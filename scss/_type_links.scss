@@ -87,7 +87,7 @@ a {
   padding: $space-half $space;
   text-align: center;
   text-transform: uppercase;
-  @include transition(all,0.3s,ease);
+  @include trans(all,0.3s,ease);
   &:hover {
     background-color: $grey-1;
     color: white;
