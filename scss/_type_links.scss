@@ -1,10 +1,6 @@
 //*  TYPOGRAPHY
 //*===========================================
 
-html, body {
-	font-family: helvetica, sans-serif;
-}
-
 :root { font-size: #{$min-font}px; }
 
 @media (min-width: #{$min-vp-width}px) and (max-width: #{$max-vp-width}px) {

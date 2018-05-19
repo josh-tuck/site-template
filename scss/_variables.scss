@@ -18,20 +18,23 @@ $max-font: 24;
 //* COLORS
 //*===========================================
 
-$color-1: #F43C00;
-$color-2: #FF580B;
-$color-3: #9293B2;
-$color-4: #8DCC74;
+$cl-1: #F43C00;
+$cl-2: #FF580B;
+$cl-3: #9293B2;
+$cl-4: #8DCC74;
+
+$k: #000000;
+$w:	#ffffff;
 
 
 //* GRAYS
 //*===========================================
 
-$grey-1: #333333;          // Darker
-$grey-2: #666666;
-$grey-3: #999999;
-$grey-4: #CCCCCC;
-$grey-5: #F4F4F4;          // Lighter
+$gr-1: #333333;          // Darker
+$gr-2: #666666;
+$gr-3: #999999;
+$gr-4: #CCCCCC;
+$gr-5: #F4F4F4;          // Lighter
 
 
 //* MARGIN & PADDING 
@@ -62,6 +65,5 @@ $bp-6: 77.5em;           //* 1240px;
 //* FROSTING 
 //*===========================================
 
-$txt-shdw: 0 0 4px rgba(0,0,0,.5);
-$blck-shdw: 0 0 4px rgba(0,0,0,.5);
-$opacity: 0.5;
+$txt-drop: 0 0 4px rgba(0,0,0,.25);
+$box-drop: 0 0 4px rgba(0,0,0,.25);
