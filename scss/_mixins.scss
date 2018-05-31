@@ -1,7 +1,7 @@
 //*  MIXINS
 //*===========================================
 
-@mixin flex-p($f-dir, $f-wrap, $j-cont, $a-item, $a-cont) {
+@mixin flx-p($f-dir, $f-wrap, $j-cont, $a-item, $a-cont) {
 	display: flex;
 	flex-direction: $f-dir;
 	flex-wrap: $f-wrap;
@@ -10,7 +10,7 @@
 	align-content: $a-cont;
 }
 
-@mixin flex-c($order, $f-grow, $f-shrink, $f-basis, $a-self) {
+@mixin flx-c($order, $f-grow, $f-shrink, $f-basis, $a-self) {
 	order: $order;
 	flex-grow: $f-grow;
 	flex-shrink: $f-shrink;
@@ -18,7 +18,7 @@
 	align-self: $a-self;
 }
 
-@mixin border-rad($radius) {
+@mixin b-rad($radius) {
 	border-radius: $radius;
 	-moz-border-radius: $radius;
 	-webkit-border-radius: $radius;
