@@ -37,7 +37,7 @@ html, body { height: 100%; }
 	}
 }
 
-.sctWrap {
+.wrap {
 	@include flex-p(
 		column,
 		nowrap,
@@ -48,108 +48,44 @@ html, body { height: 100%; }
 	margin: 0;
 }
 
-.sctWrap__mxw {
+.wrap--mxw {
 	margin: 0 auto;
 	max-width: $mxw;
 }
 
-.sctBloc {
+.bloc {
 	width: 100%;
 }
 
-.sctBloc_50 {
-	width: 50%;
-}
-
-.sctBloc__33 {
-	width: 33.333333%;
-}
-
-.sctBloc__25 {
-	width: 25%;
-}
-
-.main, .side,
-.grid-item, footer { 
-  background-color: #f8f8f8;
-}
-
-
-//*  THE OLD GRID
-//*===========================================
-
-.grid {
-	margin: 0;
-	overflow: hidden;
-}
-
-.grid-item {
-  border: 1px solid white;
-	padding: $space-half 0;
-	@media all and (min-width:$bp-2) {
-		float:left;
+.bloc--50 {
+	width: 100%;
+	@include transition(all,0.3s,ease);
+	@media all and (min-width:$bp-3) {
+		width: 50%;
 	}
 }
 
-.one-col {
-	.grid-item { width: 100%; }
-}
-
-.two-col {
-	@media all and (min-width:$bp-2) {
-		> .grid-item {
-			float: left;
-			width: 50%;
-			&:nth-of-type(odd) { clear: left; }
-		}
+.bloc--33 {
+	width: 100%;
+	@include transition(all,0.3s,ease);
+	@media all and (min-width:$bp-3) {
+		width: 33.333333%;
 	}
 }
 
-.three-col {
-	@media all and (min-width:$bp-2) {
-		> .grid-item {
-			float: left;
-			width: 33.333333%;
-		}
+.bloc--25 {
+	width: 100%;
+	@include transition(all,0.3s,ease);
+	@media all and (min-width:$bp-3) {
+		width: 25%;	
 	}
-}
-
-.four-col {
-	@media all and (min-width:$bp-2) {
-		> .grid-item {
-			float: left;
-			width: 25%;
-		}
-	}
-}
-
-.five-col {
-	@media all and (min-width:$bp-2) {
-		> .grid-item {
-			float: left;
-			width: 20%;
-		}
-	}
-}
-
-.six-col {
-	@media all and (min-width:$bp-2) {
-		> .grid-item {
-			float: left;
-			width: 16.666666%;
-		}
-	}
-}
-
-.main, .side, .grid-item {
-	border: 1px solid white;
 }
 
 
 //*  BLOCKS
 //*===========================================
 
-.embed-block {
+.bloc--embed {
 	position: relative;
 	padding-bottom: 56.25%;
 	overflow: hidden;
