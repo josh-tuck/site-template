@@ -24,21 +24,8 @@ body, html {
 
 html, body { height: 100%; }
 
-.container {
-	margin: 0 auto;
-	padding: 0;
-}
-
-@media all and (min-width:$bp-5) {
-	.container--mxw {
-		max-width: $mxw;
-		margin: 0 auto;
-		padding: 0;
-	}
-}
-
 .wrap {
-	@include flex-p(
+	@include flx-p(
 		column,
 		nowrap,
 		flex-start,
@@ -46,6 +33,7 @@ html, body { height: 100%; }
 		flex-start
 	)
 	margin: 0;
+	width: 100%;
 }
 
 .wrap--mxw {
@@ -59,7 +47,7 @@ html, body { height: 100%; }
 
 .bloc--50 {
 	width: 100%;
-	@include transition(all,0.3s,ease);
+	@include trans(all,0.3s,ease);
 	@media all and (min-width:$bp-3) {
 		width: 50%;
 	}
@@ -67,7 +55,7 @@ html, body { height: 100%; }
 
 .bloc--33 {
 	width: 100%;
-	@include transition(all,0.3s,ease);
+	@include trans(all,0.3s,ease);
 	@media all and (min-width:$bp-3) {
 		width: 33.333333%;
 	}
@@ -75,7 +63,7 @@ html, body { height: 100%; }
 
 .bloc--25 {
 	width: 100%;
-	@include transition(all,0.3s,ease);
+	@include trans(all,0.3s,ease);
 	@media all and (min-width:$bp-3) {
 		width: 25%;	
 	}

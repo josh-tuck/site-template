@@ -11,9 +11,9 @@ input {}
 
 input[type="text"], input[type="tel"],
 input[type="email"], textarea {
-  background-color: white;
-  border: 1px solid $grey-5;
-  color: $grey-2;
+  background-color: $w;
+  border: 1px solid $gr-5;
+  color: $gr-2;
   width: 100%;
 }
 

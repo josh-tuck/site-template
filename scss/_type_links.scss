@@ -75,17 +75,17 @@ a {
 }
 
 .btn {
-  background-color: $grey-3;
+  background-color: $gr-3;
   color: white;
   display: table;
-  font: 300 100%/1 $font-1;
+  font: 300 100%/1 $fnt-1;
   margin: 0 auto;
   padding: $space-half $space;
   text-align: center;
   text-transform: uppercase;
   @include trans(all,0.3s,ease);
   &:hover {
-    background-color: $grey-1;
+    background-color: $gr-1;
     color: white;
   }
 }

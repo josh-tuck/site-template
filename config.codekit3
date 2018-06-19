@@ -7,8 +7,18 @@
 		"uuidString": "662DB8DB-8F92-4E5E-A3BE-88371D768C50"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26680",
 "files": {
+	"\/css\/print.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/print-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/reset.css": {
 		"aP": 1,
 		"bl": 0,
@@ -50,306 +60,59 @@
 		"oAP": "\/index_test.html",
 		"oF": 0
 		},
-	"\/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
+	"\/js\/doubletaptogo.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "\/js\/min\/doubletaptogo.min-min.js",
 		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"sC": 1,
+		"tS": 0
 		},
-	"\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_article.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_article.scssc",
-		"oF": 0
+	"\/js\/smooth-scroll.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/smooth-scroll-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
-	"\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_footer.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_footer.scssc",
-		"oF": 0
+	"\/js\/svg-fallback.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/svg-fallback-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
-	"\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_forms.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_forms.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_globals.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_globals.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_header.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_header.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_links.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_links.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_mixins.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_mixins.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_nav.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_nav.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_sidebar.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_sidebar.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_structure.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_structure.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_type.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_type.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_variables.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/_variables.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/styles.scssc": {
+	"\/README.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/scss\/.sass-cache\/890e4553cfab093edbc7514b8de7a989f7670c9e\/styles.scssc",
+		"oAP": "\/README.txt",
 		"oF": 0
 		},
-	"\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_article.scssc": {
+	"\/scss\/__notes.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_article.scssc",
+		"oAP": "\/scss\/__notes.html",
 		"oF": 0
 		},
-	"\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_footer.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_footer.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_forms.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_forms.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_globals.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_globals.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_header.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_header.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_links.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_links.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_mixins.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_mixins.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_nav.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_nav.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_sidebar.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_sidebar.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_structure.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_structure.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_type.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_type.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_variables.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/_variables.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/styles.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/scss\/.sass-cache\/a55eb5bb5f8479545a09d1ba25301d51df2e003e\/styles.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_article.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_article.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_footer.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_footer.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_forms.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_forms.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_globals.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_globals.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_header.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_header.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_links.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_links.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_mixins.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_mixins.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_nav.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_nav.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_sidebar.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_sidebar.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_structure.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_structure.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_type.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_type.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_variables.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/_variables.scssc",
-		"oF": 0
-		},
-	"\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/styles.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/scss\/.sass-cache\/f10f9254bd6e9ec0f28c9e053759128877cdf8af\/styles.scssc",
-		"oF": 0
-		},
-	"\/scss\/_article.scss": {
+	"\/scss\/_content.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"dS": 2,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/_article.css",
+		"oAP": "\/css\/_content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -358,7 +121,7 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"dS": 2,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
@@ -371,7 +134,7 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"dS": 2,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
@@ -380,24 +143,11 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/_globals.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/css\/_globals.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/scss\/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"dS": 2,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
@@ -406,15 +156,15 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/_links.scss": {
+	"\/scss\/_layout.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"dS": 2,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/_links.css",
+		"oAP": "\/css\/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -423,7 +173,7 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"dS": 2,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
@@ -436,7 +186,7 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"dS": 2,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
@@ -449,7 +199,7 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"dS": 2,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
@@ -458,28 +208,15 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/_structure.scss": {
+	"\/scss\/_type_links.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"dS": 2,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/_structure.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/_type.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/css\/_type.css",
+		"oAP": "\/css\/_type_links.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -488,7 +225,7 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"dS": 2,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
@@ -497,24 +234,21 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/scss\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/scss\/styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/css\/styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
+		"dS": 2,
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
@@ -532,7 +266,8 @@
 	"creationDate": 507332672,
 	"displayValue": "Site Template",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-ive"
+	"iconImageName": "meme-ive",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -540,6 +275,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1103,6 +839,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -2330,6 +2070,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -2440,7 +2181,7 @@
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 1,
-		"debugStyle": 0,
+		"debugStyle": 2,
 		"decimalPrecision": 10,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
