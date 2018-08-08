@@ -22,7 +22,10 @@ body, html {
 //*  STRUCTURE
 //*=========================================== 
 
-html, body { height: 100%; }
+html, body { 
+  height: 100%;
+  width: 100%;
+}
 
 .wrap {
 	@include flx-p(
@@ -34,6 +37,16 @@ html, body { height: 100%; }
 	)
 	margin: 0;
 	width: 100%;
+	@include trans(all,0.3s,ease);
+	@media all and (min-width:$bp-3) {
+		@include flx-p(
+	  	row,
+	  	wrap,
+	  	flex-start,
+	  	flex-start,
+	  	flex-start
+	  )
+	}
 }
 
 .wrap--mxw {
@@ -49,6 +62,7 @@ html, body { height: 100%; }
 	width: 100%;
 	@include trans(all,0.3s,ease);
 	@media all and (min-width:$bp-3) {
+		padding: $space;
 		width: 50%;
 	}
 }
