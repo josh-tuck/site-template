@@ -9,6 +9,17 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/clean_underpants.png": {
+		"ft": 32768,
+		"iS": 8018,
+		"oA": 0,
+		"oAP": "\/clean_underpants.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/css\/print.css": {
 		"aP": 1,
 		"bl": 0,
@@ -233,16 +244,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/scss\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/scss\/styles-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/scss\/styles.scss": {
 		"aP": 0,

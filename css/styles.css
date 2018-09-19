@@ -1,3 +1,15 @@
+/*
+Theme Name: THEME NAME
+Theme URI: https://wordpress.org/themes/theme_name/
+Author: Josh Tuck
+Author URI: http://rustbelt.co/
+Description: This is a custom theme built on top of Blankslate for: _______.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: theme_name
+
+*/
 /* line 4, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
 body, html {
   box-sizing: border-box; }
@@ -23,9 +35,10 @@ body, html {
 
 /* line 25, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
 html, body {
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
-/* line 27, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
+/* line 30, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
 .wrap {
   display: flex;
   flex-direction: column;
@@ -34,18 +47,32 @@ html, body {
   align-items: flex-start;
   align-content: flex-start;
   margin: 0;
-  width: 100%; }
+  width: 100%;
+  -webkit-transition: all, 0.3s, ease;
+  -moz-transition: all, 0.3s, ease;
+  -ms-transition: all, 0.3s, ease;
+  -o-transition: all, 0.3s, ease;
+  transition: all, 0.3s, ease; }
+  @media all and (min-width: 45.625em) {
+    /* line 30, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
+    .wrap {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      align-content: flex-start; } }
 
-/* line 39, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
+/* line 52, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
 .wrap--mxw {
   margin: 0 auto;
   max-width: 80em; }
 
-/* line 44, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
+/* line 57, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
 .bloc {
   width: 100%; }
 
-/* line 48, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
+/* line 61, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
 .bloc--50 {
   width: 100%;
   -webkit-transition: all, 0.3s, ease;
@@ -54,11 +81,12 @@ html, body {
   -o-transition: all, 0.3s, ease;
   transition: all, 0.3s, ease; }
   @media all and (min-width: 45.625em) {
-    /* line 48, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
+    /* line 61, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
     .bloc--50 {
+      padding: 1em;
       width: 50%; } }
 
-/* line 56, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
+/* line 70, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
 .bloc--33 {
   width: 100%;
   -webkit-transition: all, 0.3s, ease;
@@ -67,11 +95,11 @@ html, body {
   -o-transition: all, 0.3s, ease;
   transition: all, 0.3s, ease; }
   @media all and (min-width: 45.625em) {
-    /* line 56, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
+    /* line 70, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
     .bloc--33 {
       width: 33.333333%; } }
 
-/* line 64, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
+/* line 78, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
 .bloc--25 {
   width: 100%;
   -webkit-transition: all, 0.3s, ease;
@@ -80,18 +108,18 @@ html, body {
   -o-transition: all, 0.3s, ease;
   transition: all, 0.3s, ease; }
   @media all and (min-width: 45.625em) {
-    /* line 64, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
+    /* line 78, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
     .bloc--25 {
       width: 25%; } }
 
-/* line 76, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
+/* line 90, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
 .bloc--embed {
   position: relative;
   padding-bottom: 56.25%;
   overflow: hidden;
   max-width: 100%;
   height: auto; }
-  /* line 82, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
+  /* line 96, Users/jtuck/Documents/GitHub/site-template/scss/_layout.scss */
   .bloc--embed iframe {
     position: absolute;
     top: 0;
@@ -211,19 +239,19 @@ a {
   display: none; }
 
 /* line 50, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-#menu li {
+.menu li {
   list-style-type: none;
   position: relative; }
 
 /* line 55, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-#menu > ul {
+.menu > ul {
   height: auto;
   display: none;
   position: absolute;
   left: 0;
   right: 0; }
   /* line 61, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-  #menu > ul li {
+  .menu > ul li {
     background-color: #F43C00;
     float: none;
     padding: .5em;
@@ -231,69 +259,69 @@ a {
     text-align: left; }
     @media all and (min-width: 45.625em) {
       /* line 61, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-      #menu > ul li {
+      .menu > ul li {
         text-align: left; } }
     /* line 72, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-    #menu > ul li a {
+    .menu > ul li a {
       color: white;
       display: block;
       font-size: 80%; }
     /* line 77, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-    #menu > ul li:hover {
+    .menu > ul li:hover {
       background-color: black; }
   @media all and (min-width: 45.625em) {
     /* line 55, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-    #menu > ul {
+    .menu > ul {
       display: block;
       position: relative; } }
 
 /* line 86, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-#menu:target > ul {
+#menu:target .menu > ul {
   display: block; }
 
 /* line 88, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-#menu li ul {
+.menu li ul {
   position: static; }
 
 /* line 92, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-#menu li:hover ul {
+.menu li:hover ul {
   display: block; }
   @media all and (min-width: 45.625em) {
     /* line 92, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-    #menu li:hover ul {
+    .menu li:hover ul {
       position: absolute; } }
 
 /* line 99, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-#menu li ul {
+.menu li ul {
   display: none;
   top: 0;
   left: 0;
   width: 100%; }
   /* line 104, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-  #menu li ul li a {
+  .menu li ul li a {
     margin-left: 1em; }
 
 @media all and (min-width: 45.625em) {
   /* line 108, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-  #menu > a {
+  .menu > a {
     display: none; }
   /* line 111, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-  #menu li {
+  .menu li {
     position: relative; }
   /* first level */
   /* line 120, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-  #menu > ul > li {
+  .menu > ul > li {
     width: 25%;
     height: 100%;
     float: left; }
   /* second level */
   /* line 128, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-  #menu li ul {
+  .menu li ul {
     display: none;
     position: absolute;
     top: 100%; }
   /* line 133, Users/jtuck/Documents/GitHub/site-template/scss/_nav.scss */
-  #menu li:hover ul {
+  .menu li:hover ul {
     display: block; } }
 
 /* line 12, Users/jtuck/Documents/GitHub/site-template/scss/_forms.scss */

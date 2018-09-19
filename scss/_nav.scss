@@ -47,12 +47,12 @@
 
 #menu > a { display: none; }
 
-#menu li { 
+.menu li { 
   list-style-type: none;
   position: relative;
 }
 
-#menu > ul {
+.menu > ul {
   height: auto;
   display: none;
   position: absolute;
@@ -83,20 +83,20 @@
   }
 }
 
-#menu:target > ul { display: block; }
+#menu:target .menu > ul { display: block; }
 
-#menu li ul { 
+.menu li ul { 
   position: static;
 }
 
-#menu li:hover ul { 
+.menu li:hover ul { 
   display: block;
   @media all and (min-width:$bp-3) {
     position: absolute;
   }
 }
 
-#menu li ul {
+.menu li ul {
   display: none;
   top: 0;
   left: 0;
@@ -105,19 +105,19 @@
 }
 
 @media all and (min-width:$bp-3) {
-  #menu > a {
+  .menu > a {
     display: none;
   }
-  #menu li {
+  .menu li {
     position: relative;
   }
  
   /* first level */
  
-  #menu > ul {
+  .menu > ul {
 //     height: 3.75em;
   }
-  #menu > ul > li {
+  .menu > ul > li {
     width: 25%;
     height: 100%;
     float: left;
@@ -125,12 +125,12 @@
  
   /* second level */
  
-  #menu li ul {
+  .menu li ul {
     display: none;
     position: absolute;
     top: 100%;
   }
-  #menu li:hover ul {
+  .menu li:hover ul {
     display: block;
   }
 }
